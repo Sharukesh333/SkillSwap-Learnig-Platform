@@ -3,7 +3,7 @@ import { appParams } from '@/lib/app-params';
 
 // Helper to handle entity operations via fetch
 const createEntityHandler = (endpoint) => {
-  const baseUrl = import.meta.env.VITE_API_URL || "http://localhost:3001";
+  const baseUrl = import.meta.env.VITE_API_URL || "/api";
   
   return {
     filter: async (query = {}) => {
