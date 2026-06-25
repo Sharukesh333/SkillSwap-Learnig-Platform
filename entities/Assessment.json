@@ -1,0 +1,49 @@
+{
+  "name": "Assessment",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string",
+      "title": "User Email"
+    },
+    "course_id": {
+      "type": "string",
+      "title": "Course ID"
+    },
+    "course_title": {
+      "type": "string",
+      "title": "Course Title"
+    },
+    "type": {
+      "type": "string",
+      "title": "Type",
+      "enum": [
+        "learner",
+        "teacher"
+      ]
+    },
+    "score": {
+      "type": "number",
+      "title": "Score"
+    },
+    "total_questions": {
+      "type": "number",
+      "title": "Total Questions",
+      "default": 15
+    },
+    "passed": {
+      "type": "boolean",
+      "title": "Passed",
+      "default": false
+    },
+    "certificate_url": {
+      "type": "string",
+      "title": "Certificate URL"
+    }
+  },
+  "required": [
+    "user_email",
+    "course_title",
+    "type"
+  ]
+}

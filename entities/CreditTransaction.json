@@ -1,0 +1,36 @@
+{
+  "name": "CreditTransaction",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string",
+      "title": "User Email"
+    },
+    "amount": {
+      "type": "number",
+      "title": "Amount"
+    },
+    "type": {
+      "type": "string",
+      "title": "Type",
+      "enum": [
+        "earned",
+        "spent",
+        "bonus"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "title": "Description"
+    },
+    "session_id": {
+      "type": "string",
+      "title": "Session ID"
+    }
+  },
+  "required": [
+    "user_email",
+    "amount",
+    "type"
+  ]
+}

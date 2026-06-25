@@ -1,0 +1,419 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Introduction to React",
+      "description": "Learn the basics of React development",
+      "language": "English",
+      "category": "Programming",
+      "teacher_name": "John Doe",
+      "teacher_email": "john@example.com",
+      "rating": 4.5,
+      "total_ratings": 10,
+      "session_type": "Live",
+      "is_approved": true
+    },
+    {
+      "id": "2",
+      "title": "Advanced JavaScript",
+      "description": "Master advanced JavaScript concepts",
+      "language": "English",
+      "category": "Programming",
+      "teacher_name": "Jane Smith",
+      "teacher_email": "jane@example.com",
+      "rating": 4.8,
+      "total_ratings": 15,
+      "session_type": "Recorded",
+      "is_approved": true
+    },
+    {
+      "title": "React Testing",
+      "description": "Learn how to test React components.",
+      "language": "English",
+      "category": "React Testing",
+      "teacher_name": "Teacher",
+      "teacher_email": "test@example.com",
+      "session_type": "credit",
+      "credits_required": 10,
+      "is_approved": false,
+      "id": "CcX_KHz7m5c"
+    },
+    {
+      "title": "Mastering JavaScript",
+      "description": "Learn advanced JavaScript concepts.",
+      "language": "English",
+      "category": "Mastering JavaScript",
+      "teacher_name": "Teacher",
+      "teacher_email": "tesmple.john@example.com",
+      "session_type": "credit",
+      "credits_required": 10,
+      "is_approved": true,
+      "id": "Skm2DDrwtdM"
+    },
+    {
+      "title": "Java",
+      "description": "Basic",
+      "language": "English",
+      "category": "Java",
+      "teacher_name": "Teacher",
+      "teacher_email": "sharukeshkamal@gmail.com",
+      "session_type": "credit",
+      "credits_required": 20,
+      "is_approved": true,
+      "id": "sbVHHmRprfM",
+      "teacher_upi_id": "",
+      "price_per_session": 0
+    },
+    {
+      "id": "p1",
+      "title": "Web Dev Masterclass",
+      "description": "Master full-stack web development with React and Node.js.",
+      "language": "English",
+      "category": "Web Development",
+      "teacher_name": "Ananya Das",
+      "teacher_email": "ananya@example.com",
+      "rating": 4.7,
+      "total_ratings": 45,
+      "session_type": "paid",
+      "price_per_session": 299,
+      "is_approved": true
+    },
+    {
+      "id": "p2",
+      "title": "Cloud Basics",
+      "description": "Learn AWS, Azure and Cloud fundamentals.",
+      "language": "English",
+      "category": "Cloud Computing",
+      "teacher_name": "Vikram Singh",
+      "teacher_email": "vikram@example.com",
+      "rating": 4.4,
+      "total_ratings": 32,
+      "session_type": "paid",
+      "price_per_session": 249,
+      "is_approved": true
+    },
+    {
+      "id": "p3",
+      "title": "Python Beginner",
+      "description": "Start your Python journey from scratch.",
+      "language": "English",
+      "category": "Python",
+      "teacher_name": "Priya Sharma",
+      "teacher_email": "priya@example.com",
+      "rating": 4.3,
+      "total_ratings": 28,
+      "session_type": "paid",
+      "price_per_session": 149,
+      "is_approved": true
+    },
+    {
+      "id": "p4",
+      "title": "Java Advanced Bootcamp",
+      "description": "Deep dive into JVM, Concurrency and Microservices.",
+      "language": "English",
+      "category": "Java",
+      "teacher_name": "Rahul Kumar",
+      "teacher_email": "rahul@example.com",
+      "rating": 4.4,
+      "total_ratings": 19,
+      "session_type": "paid",
+      "price_per_session": 199,
+      "is_approved": true
+    },
+    {
+      "title": "Kavithai",
+      "description": "",
+      "language": "Tamil",
+      "category": "Kavithai",
+      "teacher_name": "Teacher",
+      "teacher_email": "sharukeshkamal@gmail.com",
+      "session_type": "credit",
+      "credits_required": 10,
+      "is_approved": false,
+      "id": "evFlaoIbC4w"
+    },
+    {
+      "title": "HTML",
+      "description": "Basic Language of Web developement",
+      "language": "Tamil",
+      "category": "HTML",
+      "teacher_name": "Teacher",
+      "teacher_email": "sharukeshkamal@gmail.com",
+      "session_type": "credit",
+      "credits_required": 20,
+      "is_approved": true,
+      "id": "sbQ1F20AWgk"
+    },
+    {
+      "title": "python",
+      "description": "",
+      "language": "English",
+      "category": "python",
+      "teacher_name": "Teacher",
+      "teacher_email": "sharukeshkamal@gmail.com",
+      "session_type": "credit",
+      "credits_required": 10,
+      "is_approved": false,
+      "id": "cQrsDRDnQsY"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "1",
+      "course_id": "1",
+      "title": "React Components",
+      "start_time": "2024-01-15T10:00:00Z",
+      "duration": 60,
+      "status": "scheduled"
+    },
+    {
+      "course_id": "1",
+      "course_title": "Introduction to React",
+      "teacher_email": "john@example.com",
+      "teacher_name": "John Doe",
+      "student_email": "test@example.com",
+      "student_name": "Student",
+      "slot_date": "4/20/2026",
+      "slot_time": "10:00 AM",
+      "status": "booked",
+      "payment_method": "upi",
+      "credits_paid": 0,
+      "amount_paid": 0,
+      "id": "HNSgrHL2h08"
+    },
+    {
+      "course_id": "1",
+      "course_title": "Introduction to React",
+      "teacher_email": "john@example.com",
+      "teacher_name": "John Doe",
+      "student_email": "tesmple.john@example.com",
+      "student_name": "Student",
+      "slot_date": "4/20/2026",
+      "slot_time": "10:00 AM",
+      "status": "completed",
+      "payment_method": "upi",
+      "credits_paid": 0,
+      "amount_paid": 0,
+      "id": "oVTxCmGDn1s",
+      "assessment_passed": true
+    },
+    {
+      "course_id": "Skm2DDrwtdM",
+      "course_title": "Mastering JavaScript",
+      "teacher_email": "tesmple.john@example.com",
+      "teacher_name": "Teacher",
+      "student_email": "sharukeshkamal@gmail.com",
+      "student_name": "Student",
+      "slot_date": "4/20/2026",
+      "slot_time": "4:00 PM",
+      "status": "completed",
+      "payment_method": "credit",
+      "credits_paid": 10,
+      "amount_paid": 0,
+      "id": "AS4PoDimhKQ",
+      "assessment_passed": true
+    },
+    {
+      "course_id": "1",
+      "course_title": "Introduction to React",
+      "teacher_email": "john@example.com",
+      "teacher_name": "John Doe",
+      "student_email": "sharukeshkamal@gmail.com",
+      "student_name": "Student",
+      "slot_date": "4/21/2026",
+      "slot_time": "10:00 AM",
+      "status": "booked",
+      "payment_method": "upi",
+      "credits_paid": 0,
+      "amount_paid": 0,
+      "id": "FF7SIPU16jI"
+    },
+    {
+      "course_id": "Skm2DDrwtdM",
+      "course_title": "Mastering JavaScript",
+      "teacher_email": "tesmple.john@example.com",
+      "teacher_name": "Teacher",
+      "student_email": "test@example.com",
+      "student_name": "Student",
+      "slot_date": "4/21/2026",
+      "slot_time": "10:00 AM",
+      "status": "booked",
+      "payment_method": "credit",
+      "credits_paid": 10,
+      "amount_paid": 0,
+      "id": "G4PbHgk4mh8"
+    },
+    {
+      "course_id": "sbVHHmRprfM",
+      "course_title": "Java",
+      "teacher_email": "sharukeshkamal@gmail.com",
+      "teacher_name": "Teacher",
+      "student_email": "sharukeshkamal@gmail.com",
+      "student_name": "Student",
+      "slot_date": "2026-04-30",
+      "slot_time": "06:00",
+      "status": "booked",
+      "payment_method": "credit",
+      "credits_paid": 14,
+      "amount_paid": 0,
+      "id": "TpwYz_BiEy0"
+    },
+    {
+      "course_id": "sbVHHmRprfM",
+      "course_title": "Java",
+      "teacher_email": "sharukeshkamal@gmail.com",
+      "teacher_name": "Teacher",
+      "student_email": "sharukeshkamal@gmail.com",
+      "student_name": "Student",
+      "slot_date": "4/21/2026",
+      "slot_time": "10:00 AM",
+      "status": "booked",
+      "payment_method": "credit",
+      "credits_paid": 14,
+      "amount_paid": 0,
+      "id": "jUEaY8Lg_K0"
+    },
+    {
+      "course_id": "Skm2DDrwtdM",
+      "course_title": "Mastering JavaScript",
+      "teacher_email": "tesmple.john@example.com",
+      "teacher_name": "Teacher",
+      "student_email": "test@example.com",
+      "student_name": "Student",
+      "slot_date": "6/26/2026",
+      "slot_time": "10:00 AM",
+      "status": "booked",
+      "payment_method": "credit",
+      "credits_paid": 10,
+      "amount_paid": 0,
+      "id": "-GmJzvxpA9g"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Test User",
+      "email": "test@example.com",
+      "role": "student"
+    }
+  ],
+  "slots": [
+    {
+      "course_id": "sbVHHmRprfM",
+      "teacher_email": "sharukeshkamal@gmail.com",
+      "date": "2026-04-30",
+      "time": "06:00",
+      "is_booked": true,
+      "id": "o43guZNBf0k"
+    },
+    {
+      "course_id": "sbQ1F20AWgk",
+      "teacher_email": "sharukeshkamal@gmail.com",
+      "date": "2026-04-25",
+      "time": "05:00",
+      "is_booked": false,
+      "id": "v3dgcTuJbJc"
+    }
+  ],
+  "assessments": [
+    {
+      "user_email": "sharukeshkamal@gmail.com",
+      "course_id": "sbVHHmRprfM",
+      "course_title": "Java",
+      "type": "teacher",
+      "score": 96,
+      "total_questions": 25,
+      "passed": true,
+      "id": "a9e1O6Kin7Q"
+    },
+    {
+      "user_email": "tesmple.john@example.com",
+      "course_id": "Skm2DDrwtdM",
+      "course_title": "Mastering JavaScript",
+      "type": "teacher",
+      "score": 96,
+      "total_questions": 25,
+      "passed": true,
+      "id": "nMCg4CFV3xA"
+    },
+    {
+      "user_email": "tesmple.john@example.com",
+      "course_id": "1",
+      "course_title": "Introduction to React",
+      "type": "learner",
+      "score": 20,
+      "total_questions": 15,
+      "passed": false,
+      "id": "J4zvj7Azmuk"
+    },
+    {
+      "user_email": "tesmple.john@example.com",
+      "course_id": "1",
+      "course_title": "Introduction to React",
+      "type": "learner",
+      "score": 92,
+      "total_questions": 15,
+      "passed": true,
+      "id": "Zuj_JF0j_Bo"
+    },
+    {
+      "user_email": "sharukeshkamal@gmail.com",
+      "course_id": "Skm2DDrwtdM",
+      "course_title": "Mastering JavaScript",
+      "type": "learner",
+      "score": 80,
+      "total_questions": 15,
+      "passed": true,
+      "id": "FPdTE2_peI8"
+    },
+    {
+      "user_email": "sharukeshkamal@gmail.com",
+      "course_id": "sbQ1F20AWgk",
+      "course_title": "HTML",
+      "type": "teacher",
+      "score": 87,
+      "total_questions": 15,
+      "passed": true,
+      "id": "_u62ak3b3Vo"
+    }
+  ],
+  "creditTransactions": [
+    {
+      "user_email": "sharukeshkamal@gmail.com",
+      "amount": 10,
+      "type": "spent",
+      "description": "Booked session: Mastering JavaScript",
+      "id": "C2KDlZ0FDFM"
+    },
+    {
+      "user_email": "tesmple.john@example.com",
+      "amount": 20,
+      "type": "earned",
+      "description": "Earned from teaching: Mastering JavaScript",
+      "session_id": "AS4PoDimhKQ",
+      "id": "tqaplqbLQYo"
+    },
+    {
+      "user_email": "test@example.com",
+      "amount": 10,
+      "type": "spent",
+      "description": "Booked session: Mastering JavaScript",
+      "id": "ahaXjJsX0gc"
+    },
+    {
+      "user_email": "sharukeshkamal@gmail.com",
+      "amount": 14,
+      "type": "spent",
+      "description": "Booked session: Java",
+      "id": "4qnuTU9UN38"
+    },
+    {
+      "user_email": "test@example.com",
+      "amount": 10,
+      "type": "spent",
+      "description": "Booked session: Mastering JavaScript",
+      "id": "AjaCdBIBGeY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

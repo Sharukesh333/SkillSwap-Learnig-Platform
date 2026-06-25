@@ -1,0 +1,33 @@
+{
+  "name": "Slot",
+  "type": "object",
+  "properties": {
+    "course_id": {
+      "type": "string",
+      "title": "Course ID"
+    },
+    "teacher_email": {
+      "type": "string",
+      "title": "Teacher Email"
+    },
+    "date": {
+      "type": "string",
+      "title": "Date"
+    },
+    "time": {
+      "type": "string",
+      "title": "Time"
+    },
+    "is_booked": {
+      "type": "boolean",
+      "title": "Is Booked",
+      "default": false
+    }
+  },
+  "required": [
+    "course_id",
+    "teacher_email",
+    "date",
+    "time"
+  ]
+}

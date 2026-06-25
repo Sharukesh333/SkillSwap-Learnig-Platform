@@ -1,0 +1,82 @@
+{
+  "name": "Session",
+  "type": "object",
+  "properties": {
+    "course_id": {
+      "type": "string",
+      "title": "Course ID"
+    },
+    "course_title": {
+      "type": "string",
+      "title": "Course Title"
+    },
+    "teacher_email": {
+      "type": "string",
+      "title": "Teacher Email"
+    },
+    "teacher_name": {
+      "type": "string",
+      "title": "Teacher Name"
+    },
+    "student_email": {
+      "type": "string",
+      "title": "Student Email"
+    },
+    "student_name": {
+      "type": "string",
+      "title": "Student Name"
+    },
+    "slot_date": {
+      "type": "string",
+      "title": "Slot Date"
+    },
+    "slot_time": {
+      "type": "string",
+      "title": "Slot Time"
+    },
+    "status": {
+      "type": "string",
+      "title": "Status",
+      "enum": [
+        "booked",
+        "completed",
+        "cancelled"
+      ],
+      "default": "booked"
+    },
+    "payment_method": {
+      "type": "string",
+      "title": "Payment Method",
+      "enum": [
+        "credit",
+        "upi",
+        "qr"
+      ]
+    },
+    "credits_paid": {
+      "type": "number",
+      "title": "Credits Paid",
+      "default": 0
+    },
+    "amount_paid": {
+      "type": "number",
+      "title": "Amount Paid",
+      "default": 0
+    },
+    "rating_given": {
+      "type": "number",
+      "title": "Rating Given",
+      "default": 0
+    },
+    "assessment_passed": {
+      "type": "boolean",
+      "title": "Assessment Passed",
+      "default": false
+    }
+  },
+  "required": [
+    "course_id",
+    "teacher_email",
+    "student_email"
+  ]
+}

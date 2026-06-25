@@ -1,0 +1,91 @@
+{
+  "name": "Course",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Course Title"
+    },
+    "description": {
+      "type": "string",
+      "title": "Description"
+    },
+    "language": {
+      "type": "string",
+      "title": "Language",
+      "enum": [
+        "Tamil",
+        "English",
+        "Hindi",
+        "Telugu",
+        "Kannada",
+        "Malayalam"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "title": "Category"
+    },
+    "teacher_name": {
+      "type": "string",
+      "title": "Teacher Name"
+    },
+    "teacher_email": {
+      "type": "string",
+      "title": "Teacher Email"
+    },
+    "rating": {
+      "type": "number",
+      "title": "Rating",
+      "default": 0
+    },
+    "total_ratings": {
+      "type": "number",
+      "title": "Total Ratings",
+      "default": 0
+    },
+    "session_type": {
+      "type": "string",
+      "title": "Session Type",
+      "enum": [
+        "credit",
+        "paid"
+      ],
+      "default": "credit"
+    },
+    "credits_required": {
+      "type": "number",
+      "title": "Credits Required",
+      "default": 10
+    },
+    "price_per_session": {
+      "type": "number",
+      "title": "Price Per Session",
+      "default": 0
+    },
+    "sessions_completed": {
+      "type": "number",
+      "title": "Sessions Completed",
+      "default": 0
+    },
+    "teacher_upi_id": {
+      "type": "string",
+      "title": "Teacher UPI ID"
+    },
+    "teacher_qr_code": {
+      "type": "string",
+      "title": "Teacher QR Code URL"
+    },
+    "is_approved": {
+      "type": "boolean",
+      "title": "Is Approved",
+      "default": false
+    }
+  },
+  "required": [
+    "title",
+    "language",
+    "teacher_name",
+    "teacher_email"
+  ]
+}
