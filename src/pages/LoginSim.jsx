@@ -13,7 +13,7 @@ export default function LoginSim() {
   const [password, setPassword] = useState("");
   const [isSignUp, setIsSignUp] = useState(false);
   const navigate = useNavigate();
-  const { login } = useAuth();
+  const { checkAppState } = useAuth();
 
   const handleAuth = () => {
     const mockUser = {

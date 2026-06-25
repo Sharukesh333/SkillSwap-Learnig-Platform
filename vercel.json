@@ -3,6 +3,10 @@
     {
       "source": "/api/(.*)",
       "destination": "/api/index.js"
+    },
+    {
+      "source": "/((?!api|assets|logo\\.png|manifest\\.json).*)",
+      "destination": "/index.html"
     }
   ]
 }

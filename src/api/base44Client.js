@@ -1,5 +1,4 @@
-import { createClient } from '@base44/sdk';
-import { appParams } from '@/lib/app-params';
+// SkillSwap mock client - no external SDK dependency
 
 // Helper to handle entity operations via fetch
 const createEntityHandler = (endpoint) => {
@@ -7,12 +6,14 @@ const createEntityHandler = (endpoint) => {
   
   return {
     filter: async (query = {}) => {
-      const url = new URL(`${baseUrl}/${endpoint}`);
+      const params = new URLSearchParams();
       Object.keys(query).forEach(key => {
         if (query[key] !== undefined && query[key] !== null) {
-          url.searchParams.append(key, query[key]);
+          params.append(key, String(query[key]));
         }
       });
+      const queryString = params.toString();
+      const url = `${baseUrl}/${endpoint}${queryString ? '?' + queryString : ''}`;
       const res = await fetch(url);
       if (!res.ok) return [];
       return res.json();
@@ -872,7 +873,5 @@ class MockBase44Client {
   }
 }
 
-const { appId, token, functionsVersion, appBaseUrl } = appParams;
-
-// Use mock client for local development, real client for production
+// Use mock client for SkillSwap
 export const base44 = new MockBase44Client();
